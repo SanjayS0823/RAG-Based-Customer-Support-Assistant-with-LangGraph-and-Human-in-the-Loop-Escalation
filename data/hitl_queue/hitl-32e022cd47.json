@@ -1,0 +1,15 @@
+{
+  "ticket_id": "hitl-32e022cd47",
+  "query": "i will sue this company",
+  "reason": "Low retrieval confidence (0.00)",
+  "intent": "general_support",
+  "user_id": "format-test",
+  "retrieved_sources": [
+    "customer_support_kb.pdf",
+    "customer_support_kb.pdf"
+  ],
+  "model_answer": "Here is the relevant information:\n- # Acme Customer Support Knowledge Base ## Refund Policy - Customers can request a full refund within 14 days of purchase. - Refund requests after 14 days are evaluated case by case. - Digital subscription...\n- unt Access Issues - For failed login attempts, customers should reset their password using the forgot-password flow. - Accounts are temporarily locked for 15 minutes after 5 failed attempts. - If 2FA code...",
+  "created_at": "2026-04-24T05:21:53.225723+00:00",
+  "status": "OPEN",
+  "human_response": null
+}

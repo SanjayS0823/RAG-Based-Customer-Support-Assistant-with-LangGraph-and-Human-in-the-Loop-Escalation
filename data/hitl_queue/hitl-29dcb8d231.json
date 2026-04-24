@@ -1,0 +1,15 @@
+{
+  "ticket_id": "hitl-29dcb8d231",
+  "query": "what is refund window",
+  "reason": "Low retrieval confidence (0.12)",
+  "intent": "refund_policy",
+  "user_id": "menu-test",
+  "retrieved_sources": [
+    "customer_support_kb.pdf",
+    "customer_support_kb.pdf"
+  ],
+  "model_answer": "Answer:\n- Acme Customer Support Knowledge Base Refund Policy\n- Customers can request a full refund within 14 days of purchase\n- Refund requests after 14 days are evaluated case by case",
+  "created_at": "2026-04-24T05:28:06.771868+00:00",
+  "status": "OPEN",
+  "human_response": null
+}

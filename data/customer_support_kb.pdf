@@ -1,0 +1,105 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 5 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1887 >>
+stream
+BT
+/F1 10 Tf
+50 742 Td
+14 TL
+(# Acme Customer Support Knowledge Base) Tj
+T*
+() Tj
+T*
+(## Refund Policy) Tj
+T*
+(- Customers can request a full refund within 14 days of purchase.) Tj
+T*
+(- Refund requests after 14 days are evaluated case by case.) Tj
+T*
+(- Digital subscription renewals are non-refundable once the billing cycle starts.) Tj
+T*
+() Tj
+T*
+(## Cancellation Policy) Tj
+T*
+(- Monthly plans can be canceled anytime from the account settings page.) Tj
+T*
+(- Cancellation is effective at the end of the current billing cycle.) Tj
+T*
+(- Annual plans can be canceled, but remaining months are not prorated.) Tj
+T*
+() Tj
+T*
+(## Shipping and Delivery) Tj
+T*
+(- Standard shipping ETA is 5 to 7 business days.) Tj
+T*
+(- Expedited shipping ETA is 1 to 2 business days.) Tj
+T*
+(- If a package is marked delivered but not received, customers should wait 24 hours before) Tj
+T*
+(filing a lost package claim.) Tj
+T*
+() Tj
+T*
+(## Account Access Issues) Tj
+T*
+(- For failed login attempts, customers should reset their password using the forgot-password) Tj
+T*
+(flow.) Tj
+T*
+(- Accounts are temporarily locked for 15 minutes after 5 failed attempts.) Tj
+T*
+(- If 2FA code delivery fails, users should verify phone network availability and retry after 2) Tj
+T*
+(minutes.) Tj
+T*
+() Tj
+T*
+(## Troubleshooting App Errors) Tj
+T*
+(- Users should clear cache and restart the app for session-related issues.) Tj
+T*
+(- Persistent crash issues should be escalated with device model, OS version, and timestamp.) Tj
+T*
+(- Payment-processing errors should be escalated when retrying after 10 minutes still fails.) Tj
+T*
+() Tj
+T*
+(## Escalation Rules) Tj
+T*
+(- Escalate to human support when the user explicitly asks for a human agent.) Tj
+T*
+(- Escalate when policy interpretation is ambiguous or legal-risk related.) Tj
+T*
+(- Escalate when technical issues persist after standard troubleshooting.) Tj
+T*
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000015 00000 n 
+0000000064 00000 n 
+0000000121 00000 n 
+0000000247 00000 n 
+0000002186 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+2254
+%%EOF

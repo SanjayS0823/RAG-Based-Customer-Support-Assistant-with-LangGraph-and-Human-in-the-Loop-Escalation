@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/app.css" />
+  </head>
+  <body>
+    <div class="bg-orb bg-orb-a" aria-hidden="true"></div>
+    <div class="bg-orb bg-orb-b" aria-hidden="true"></div>
+
+    <nav class="menu-bar" aria-label="Main">
+      <a href="/" class="menu-item{% if active_page == 'support' %} active{% endif %}">Support Assistant</a>
+      <a href="/hitl" class="menu-item{% if active_page == 'hitl' %} active{% endif %}">HITL Console</a>
+    </nav>
+
+    <header class="page-header">
+      <div>
+        <p class="kicker">LangGraph + HITL</p>
+        <h1>RAG Support Control Room</h1>
+      </div>
+      <div class="chip">Collection: {{ collection_name }}</div>
+    </header>
+
+    <main class="layout layout-chat">
+      <section class="card card-form">
+        <h2>Ask Customer Query</h2>
+        <form id="ask-form">
+          <label for="user_id">User ID</label>
+          <input id="user_id" name="user_id" type="text" value="web-user" required />
+
+          <label for="query">Question</label>
+          <textarea
+            id="query"
+            name="query"
+            rows="6"
+            placeholder="Example: Can I cancel my annual plan and still request a refund?"
+            required
+          ></textarea>
+
+          <button type="submit" id="ask-button">Run Workflow</button>
+        </form>
+      </section>
+
+      <section class="card card-output">
+        <div class="result-header">
+          <h2>Assistant Output</h2>
+        </div>
+
+        <div class="meta-row">
+          <span id="intent-badge" class="badge neutral">Intent: -</span>
+          <span id="confidence-badge" class="badge neutral">Confidence: -</span>
+          <span id="route-badge" class="badge neutral">Route: -</span>
+        </div>
+
+        <pre id="answer-box">Submit a query to see workflow output.</pre>
+
+        <div>
+          <h3>Retrieved Sources</h3>
+          <ul id="sources-list" class="source-list">
+            <li class="muted">No retrieval yet.</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <script src="/static/app.js"></script>
+  </body>
+</html>

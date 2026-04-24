@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="/static/app.css" />
+  </head>
+  <body>
+    <div class="bg-orb bg-orb-a" aria-hidden="true"></div>
+    <div class="bg-orb bg-orb-b" aria-hidden="true"></div>
+
+    <nav class="menu-bar" aria-label="Main">
+      <a href="/" class="menu-item{% if active_page == 'support' %} active{% endif %}">Support Assistant</a>
+      <a href="/hitl" class="menu-item{% if active_page == 'hitl' %} active{% endif %}">HITL Console</a>
+    </nav>
+
+    <header class="page-header">
+      <div>
+        <p class="kicker">Human in the Loop</p>
+        <h1>HITL Escalation Console</h1>
+      </div>
+      <div class="chip">Collection: {{ collection_name }}</div>
+    </header>
+
+    <main class="layout layout-admin">
+      <section class="card card-tickets">
+        <div class="result-header">
+          <h2>HITL Escalation Queue</h2>
+          <div class="ticket-actions">
+            <button id="refresh-tickets" type="button" class="ghost">Refresh</button>
+            <span id="ticket-count" class="chip">0 open</span>
+          </div>
+        </div>
+        <div id="ticket-list" class="ticket-list">
+          <p class="muted">No escalations yet.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="/static/hitl.js"></script>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "ticket_id": "hitl-e185834499",
+  "query": "i will sue this company",
+  "reason": "Low retrieval confidence (0.00)",
+  "intent": "general_support",
+  "user_id": "web-user",
+  "retrieved_sources": [
+    "customer_support_kb.pdf",
+    "customer_support_kb.pdf"
+  ],
+  "model_answer": "Answer:\n- Acme Customer Support Knowledge Base Refund Policy\n- Customers can request a full refund within 14 days of purchase\n- Refund requests after 14 days are evaluated case by case",
+  "created_at": "2026-04-24T05:24:12.355798+00:00",
+  "status": "OPEN",
+  "human_response": null
+}
