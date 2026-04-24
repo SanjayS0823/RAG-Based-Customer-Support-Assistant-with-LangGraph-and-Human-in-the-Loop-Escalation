@@ -116,16 +116,6 @@ Web features:
 - View open HITL tickets on dedicated HITL page
 - Resolve tickets with human responses from HITL page
 
-## Export Deliverables to PDF
-
-```bash
-python scripts/export_docs_to_pdf.py
-```
-
-Generated files:
-- `deliverables/HLD_Document.pdf`
-- `deliverables/LLD_Document.pdf`
-- `deliverables/Technical_Documentation.pdf`
 
 ## Notes
 
